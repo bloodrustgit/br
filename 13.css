@@ -286,7 +286,7 @@ button:focus {
     padding: 11px 10px 11px 10px;
 }
 ::placeholder {
-  color: #e2e2e2 !important;
+  color: #cfcfcf !important;
 }
 .fa-search:before {
     content: "\F002";
@@ -897,14 +897,11 @@ label {
     margin-bottom: 0px;
 }
 .xbox_promocodes .form-control {
-    padding: 13px 13px 13px 20px;
+    padding: 13px;
 }
 .table-striped a {
     color: black;
     font-weight: bold;
-}
-.xbox_promocodes .input-group-btn:focus, .xbox_promocodes .input-group-btn:active,.xbox_promocodes .btn-success:focus, .xbox_promocodes .btn-success:active {
-  transform: scale(1) !important;
 }
 .xbox_promocodes .btn {
     border-radius: 15px;
@@ -921,6 +918,25 @@ label {
     border-color: unset;
     opacity: 1;
     color: #ffffff;
+}
+.xbox_promocodes .input-group {
+    width: 152.5%;
+    border: solid #ebebeb 1px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+@media (max-width: 1200px)
+{
+.xbox_promocodes .input-group {
+    width: 100%;
+}
+}
+.xbox_promocodes .input-group-btn .btn {
+  border-radius: 0px;
+}
+.xbox_promocodes .form-control {
+  border-radius: 0px;
+  letter-spacing: 2px;
 }
 .btn-success {
     background: #a6e170;
