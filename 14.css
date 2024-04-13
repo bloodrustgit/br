@@ -921,7 +921,6 @@ label {
 }
 .xbox_promocodes .input-group {
     width: 152.5%;
-    border: solid #ebebeb 1px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -937,6 +936,7 @@ label {
 .xbox_promocodes .form-control {
   border-radius: 0px;
   letter-spacing: 2px;
+  background: #f3f4f6;
 }
 .btn-success {
     background: #a6e170;
