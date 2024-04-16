@@ -329,7 +329,7 @@ select.form-control:not([size]):not([multiple]) {
     position: absolute;
     bottom: 5px;
     left: 10px;
-    right: 70px;
+    right: 80px;
     color: black;
     background: unset;
     padding: 8px;
