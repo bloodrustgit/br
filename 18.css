@@ -1776,6 +1776,9 @@ label {
     line-height: 20px;
     font-weight: 600;
     color: #23272a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .category-user {
     font-size: 14px;
@@ -1951,17 +1954,6 @@ blockquote {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-}
-.name-user {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #23272a;
-}
-.category-user {
-    font-size: 14px;
-    line-height: 18px;
-    color: #bbbbbb;
 }
 
 .container-user1 {
