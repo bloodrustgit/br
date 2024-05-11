@@ -2742,7 +2742,7 @@ blockquote {
     z-index: 3;
     //width: 30px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 6px;
     padding: 0px 12px;
     user-select: none;
     cursor: pointer;
