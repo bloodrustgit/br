@@ -2645,7 +2645,7 @@ blockquote {
     border-radius: 10px;
     border: solid #ebebeb 1px;
     padding: 10px;
-    gap: 8px;
+    gap: 12px;
 }
 .pd-item {
     display: -webkit-inline-box;
