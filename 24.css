@@ -629,7 +629,6 @@ select.form-control:not([size]):not([multiple]) {
 .nav-pills .nav-link.active {
     color: white;
     background-color: black;
-    letter-spacing: 2px;
 }
 .flex-column {
     text-align: center;
@@ -2284,7 +2283,7 @@ blockquote {
 .some-btn {
   background: white;
   color: black;
-  padding: 11px;
+  padding: 10px;
   width: 100%;
   text-align: center;
   border-radius: 15px;
