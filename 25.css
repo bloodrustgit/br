@@ -619,12 +619,10 @@ select.form-control:not([size]):not([multiple]) {
 .nav-pills .nav-link:hover {
     color: black;
     background-color: white;
-    letter-spacing: 2px;
 }
 .nav-pills .nav-link:focus {
     color: black;
     background-color: white;
-    letter-spacing: 2px;
 }
 .nav-pills .nav-link.active {
     color: white;
@@ -648,17 +646,14 @@ select.form-control:not([size]):not([multiple]) {
 .server-navigation .nav-pills .nav-link:hover {
     color: white;
     background-color: #b6b6b6;
-    letter-spacing: 0px;
 }
 .server-navigation .nav-pills .nav-link:focus {
     color: white;
     background-color: #b6b6b6;
-    letter-spacing: 0px;
 }
 .server-navigation .nav-pills .nav-link.active {
     color: white;
     background-color: black;
-    letter-spacing: 0px;
 }
 .server-navigation .nav-pills .nav-link:first-child {
   border-radius: 0px 0px 0px 15px;
@@ -2144,12 +2139,6 @@ blockquote {
 }
 .player-stats__navigation .nav-link:last-child {
     border-radius: 0px 15px 15px 0px;
-}
-.player-stats__navigation .nav-link:hover, .nav-link:focus, .nav-link:active {
-    letter-spacing: 0px;
-}
-.player-stats__navigation .nav-pills .nav-link.active {
-    letter-spacing: 0px;
 }
 .player-stats__profile .table-striped tbody tr, .player-stats .table-striped tbody tr {
     line-height: 16px;
