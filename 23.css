@@ -28,7 +28,6 @@ button, input, optgroup, select, textarea {
 
 .nav-link[href="/feedback"],.nav-link[href="/news"]{display:none}
 .xbox_store .store-categories{display:none}
-.xbox_store .store-servers{display:none}
 .xbox_store .xbox__header {display:none}
 .xbox__body {padding: 0px;background: none;}
 .xbox {background: none;padding: 0px;}
