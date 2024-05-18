@@ -207,6 +207,9 @@ button:focus {
     background: black;
     padding: 5px 10px;
 }
+.dropdown-menu .dropdown-item:first-child {
+    display: none;
+}
 .dropdown-menu button { 
     color: #a1a1a1;
     padding:unset;
@@ -399,6 +402,14 @@ select.form-control:not([size]):not([multiple]) {
 
 /*Мониторинг*/
 
+.xserver__links a {
+    margin-top: 1px!important;
+}
+.xserver__links {
+    margin-top: -30px !important;
+    color: white;
+}
+
 .xserver {
     margin-bottom: 10px;
     padding: 14px;
@@ -520,48 +531,36 @@ select.form-control:not([size]):not([multiple]) {
     border-radius: 20px 20px 20px 20px;
 }
 
-.xbox_monitoring .xserver:first-child {
-    border-radius: 15px;
+.xserver:first-child, .xserver:last-child  {
+    display: none !important;
 }
 
-.xserver:nth-child(1) .xserver__status .progress .bg-success {
+.xserver:nth-child(6) {
+    margin-bottom: 0px;
+}
+
+.xserver:nth-child(2) .xserver__status .progress .bg-success {
     background: linear-gradient(to right, #dc4848 0%, #dc7448 100%);
     animation: load 2s normal forwards;
 }
-.xserver:nth-child(2) .xserver__status .progress .bg-success {
+.xserver:nth-child(3) .xserver__status .progress .bg-success {
     background: linear-gradient(to right, #0bab61 0%, #98b73b 100%);
     animation: load 3s normal forwards;
 }
-.xserver:nth-child(3) .xserver__status .progress .bg-success {
+.xserver:nth-child(4) .xserver__status .progress .bg-success {
     background: linear-gradient(to left, #f9bf76 0%, #f39f86 100%);
     animation: load 4s normal forwards;
 }
-.xserver:nth-child(4) .xserver__status .progress .bg-success {
+.xserver:nth-child(5) .xserver__status .progress .bg-success {
     background: linear-gradient(to right, #a88beb 0%, #decef8 100%);
     animation: load 5s normal forwards;
 }
-.xserver:nth-child(5) .xserver__status .progress .bg-success {
+.xserver:nth-child(6) .xserver__status .progress .bg-success {
     background: linear-gradient(to right, #6db3f4 0%, #aed7f0 100%);
     animation: load 6s normal forwards;
 }
 
-.xserver:hover:nth-child(1) .fa-play {
-    color: #dc6048;
-}
-.xserver:hover:nth-child(2) .fa-play {
-    color: #70b446;
-}
-.xserver:hover:nth-child(3) .fa-play {
-    color: #f9be77;
-}
-.xserver:hover:nth-child(4) .fa-play {
-    color: #c8b3f3;
-}
-.xserver:hover:nth-child(5) .fa-play {
-    color: #a8d2f3;
-}
-
-.xserver:nth-child(1) .xserver__title:after {
+.xserver:nth-child(2) .xserver__title:after {
     content: "Duo Procedural" ;
     font-weight: 100;
     margin-left: 4px;
@@ -571,7 +570,7 @@ select.form-control:not([size]):not([multiple]) {
     color: #777777;
 }
 
-.xserver:nth-child(2) .xserver__title:after {
+.xserver:nth-child(3) .xserver__title:after {
     content: "Trio Procedural" ;
     font-weight: 100;
     margin-left: 4px;
@@ -581,7 +580,7 @@ select.form-control:not([size]):not([multiple]) {
     color: #777777;
 }
 
-.xserver:nth-child(3) .xserver__title:after {
+.xserver:nth-child(4) .xserver__title:after {
     content: "Trio Cliffless" ;
     font-weight: 100;
     margin-left: 4px;
@@ -591,7 +590,7 @@ select.form-control:not([size]):not([multiple]) {
     color: #777777;
 }
 
-.xserver:nth-child(4) .xserver__title:after {
+.xserver:nth-child(5) .xserver__title:after {
     content: "Solo Procedural" ;
     font-weight: 100;
     margin-left: 4px;
@@ -601,7 +600,7 @@ select.form-control:not([size]):not([multiple]) {
     color: #777777;
 }
 
-.xserver:nth-child(5) .xserver__title:after {
+.xserver:nth-child(6) .xserver__title:after {
     content: "NoLimit Procedural" ;
     font-weight: 100;
     margin-left: 4px;
@@ -2421,6 +2420,11 @@ blockquote {
   border-radius: 20px;
 }
 
+.store-servers {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .store-categories .btn-secondary {
     color: black;
     background: white;
@@ -2608,17 +2612,6 @@ blockquote {
 
 .xbox_custom_rules {
   color: black;
-}
-
-.xserver__links a {
-    margin-top: 1px!important;
-}
-.xserver__links {
-    margin-top: -30px !important;
-    color: white;
-}
-.xserver:last-child {
-    display: none !important;
 }
 
 .avatar {
