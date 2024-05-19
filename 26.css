@@ -247,6 +247,12 @@ button:focus {
 .dropdown-item:last-child {
     border-radius: 0px 0px 10px 10px;
 }
+@media (max-width: 993px)
+{
+.dropdown-item:last-child {
+    border-radius: 0px !important;
+}
+}
 
 /*Шапка*/
 
@@ -727,6 +733,16 @@ select.form-control:not([size]):not([multiple]) {
     font-size: 14px;
     line-height: 15px;
     color: #bbb;
+}
+.server-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.server-ip {
+    user-select: all;
+    margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 /*Header*/
@@ -2407,9 +2423,41 @@ blockquote {
   border-radius: 20px;
 }
 
-.store-servers {
+.store-servers .flex-column {
+    display: flex;
+    gap: 5px;
+    background: #e4e6e9;
+    padding: 5px;
     border-radius: 15px;
-    overflow: hidden;
+}
+
+.store-servers .nav-link+.nav-link {
+    margin-top: 0px;
+}
+
+.store-servers .nav-link {
+    display: block;
+    padding: 6px;
+    border-radius: 10px !important;
+    color: #7e7e7e !important;
+    background-color: #e4e6e9 !important;
+}
+
+.store-servers .nav-link.active {
+    color: black !important;
+    background-color: #ffffff !important;
+    border-radius: 10px;
+}
+
+.store-servers .nav-link:hover {
+    color: black !important;
+}
+
+@media (min-width: 768px)
+{
+  .store-servers .nav-link+.nav-link {
+      margin-left: 0px;
+  }
 }
 
 .store-categories .btn-secondary {
@@ -2765,4 +2813,25 @@ blockquote {
     color: #bbbbbb;
     padding: 20px;
     text-transform: uppercase;
+}
+
+.activation-warning {
+    padding: 10px;
+    background: linear-gradient(-45deg, #fff, #fff7ec, #fff);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    color: #121212;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid #ebebeb 1px;
+}
+
+/*Modal XL*/
+
+@media (min-width: 992px)
+{
+.modal-xl {
+    max-width: 600px;
+}
 }
