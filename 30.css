@@ -621,6 +621,7 @@ select.form-control:not([size]):not([multiple]) {
     color: black;
     background-color: white;
     border-radius: 0px;
+    transition: all .1s ease-in-out;
 }
 .nav-pills .nav-link:hover {
     color: black;
