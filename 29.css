@@ -2439,18 +2439,18 @@ blockquote {
     display: block;
     padding: 6px;
     border-radius: 10px !important;
-    color: #7e7e7e !important;
+    color: #a0a0a0 !important;
     background-color: #e4e6e9 !important;
 }
 
 .store-servers .nav-link.active {
     color: black !important;
-    background-color: #f3f4f6 !important;
+    background-color: #0b0b0b !important;
     border-radius: 10px;
 }
 
 .store-servers .nav-link:hover {
-    color: black !important;
+    color: #0b0b0b !important;
 }
 
 @media (min-width: 768px)
