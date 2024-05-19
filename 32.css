@@ -2441,7 +2441,7 @@ blockquote {
 
 .store-servers .nav-link {
     display: block;
-    padding: 6px;
+    padding: 6px 12px;
     border-radius: 10px !important;
     color: #a0a0a0 !important;
     background-color: #e4e6e9 !important;
