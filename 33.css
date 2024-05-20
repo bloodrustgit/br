@@ -206,7 +206,7 @@ button:focus {
     background: black;
     padding: 5px 10px;
 }
-.dropdown-menu .dropdown-item:first-child {
+.dropdown-menu .dropdown-item[href="/servers/9648"] {
     display: none;
 }
 .dropdown-menu button { 
