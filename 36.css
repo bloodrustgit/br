@@ -2450,12 +2450,6 @@ blockquote {
 .store-servers .nav-link.active {
     color: #0b0b0b !important;
     background-color: #f3f4f6 !important;
-    pointer-events: none;
-}
-
-.store-servers .nav-link:hover {
-    color: #0b0b0b !important;
-    background: rgba(243, 244, 246, 0.5) !important;
 }
 
 .store-servers .nav-link:first-child {
