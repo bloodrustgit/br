@@ -228,6 +228,7 @@ button:focus {
 }
 .dropdown-item {
     padding: 5px 1.5rem;
+    cursor: pointer;
 }
 .dropdown-item:nth-child(2n) { 
     animation: zoomIn 0.2s;
@@ -2447,6 +2448,11 @@ blockquote {
     background-color: #e4e6e9 !important;
 }
 
+.store-servers .nav-link:hover {
+    color: #0b0b0b !important;
+    background: rgba(243, 244, 246, 0.5) !important;
+}
+
 .store-servers .nav-link.active {
     color: #0b0b0b !important;
     background-color: #f3f4f6 !important;
@@ -2487,6 +2493,7 @@ blockquote {
     border-radius: 15px;
     margin-bottom: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 .serverheader span {
