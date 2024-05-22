@@ -129,15 +129,6 @@ button, input, optgroup, select, textarea {
         border-radius: 0px 0px 15px 15px;
     }
 }
-@media (min-width: 992px)
-{
-    .navbar-nav.float-lg-right .nav-item:first-child .nav-link:before {
-        font-family: FontAwesome;
-        content: "\f055";
-        font-size: 15px;
-        margin-right: 5px;
-    }
-}
 
 .navbar .navbar-toggler-icon {
     background-image: unset;
