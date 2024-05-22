@@ -216,6 +216,14 @@ button:focus {
     line-height:24px;
     transition:0.1s
 }
+.dropdown-menu button a { 
+    color: #a1a1a1;
+    display: block;
+    transition: all 0.1s
+}
+.dropdown-menu button a:hover { 
+    color: white;
+}
 .dropdown-menu { 
     border: none;
 }
