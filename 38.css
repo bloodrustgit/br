@@ -195,16 +195,17 @@ button:focus {
     margin: 0px;
     color: #a1a1a1;
 }
-.dropdown-menu .dropdown-item:hover {
-    box-shadow:none;
-    color: white;
-}
 .dropdown-menu .dropdown-item {
-    color: #a1a1a1;
+    color: #a1a1a1 !important;
     line-height: 24px;
     margin-bottom: 0px;
     background: black;
     padding: 5px 10px;
+    cursor: pointer;
+}
+.dropdown-menu .dropdown-item:hover {
+    box-shadow:none;
+    color: white !important;
 }
 .dropdown-menu .dropdown-item[href="/servers/9648"] {
     display: none;
@@ -215,20 +216,8 @@ button:focus {
     line-height:24px;
     transition:0.1s
 }
-.dropdown-menu button a { 
-    color: #a1a1a1;
-    display: block;
-    transition: all 0.1s
-}
-.dropdown-menu button a:hover { 
-    color: white;
-}
 .dropdown-menu { 
     border: none;
-}
-.dropdown-item {
-    padding: 5px 1.5rem;
-    cursor: pointer;
 }
 .dropdown-item:nth-child(2n) { 
     animation: zoomIn 0.2s;
