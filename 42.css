@@ -88,7 +88,6 @@ button, input, optgroup, select, textarea {
 }
 .float-lg-right {
     float: right!important;
-    text-transform: uppercase;
 }
 
 .navbar-brand {
@@ -123,10 +122,20 @@ button, input, optgroup, select, textarea {
     border-radius: 0px 0px 15px 0px;
     font-weight: bold;
 }
+
 @media (max-width: 991px)
 {
     .nav-link[href="/api/lang.php"] {
         border-radius: 0px 0px 15px 15px;
+    }
+}
+@media (min-width: 992px)
+{
+    .navbar-nav.float-lg-right .nav-item:first-child .nav-link:before {
+        font-family: FontAwesome;
+        content: "\f055";
+        font-size: 15px;
+        margin-right: 5px;
     }
 }
 
