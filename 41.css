@@ -203,7 +203,7 @@ button:focus {
     padding: 5px 10px;
     cursor: pointer;
 }
-.dropdown-menu .dropdown-item:hover button a {
+.dropdown-menu .dropdown-item:hover {
     box-shadow: none;
     color: white !important;
 }
