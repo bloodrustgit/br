@@ -805,16 +805,6 @@ select.form-control:not([size]):not([multiple]) {
     border-radius: 0px 0px 15px 15px;
     cursor: pointer;
 }
-.btn-danger {
-    color: black;
-    background-color: #ffffff;
-    letter-spacing: 0px;
-}
-.btn-danger:hover {
-    color: black;
-    background-color: #ffffff;
-    letter-spacing: 2px;
-}
 .btn, .btn:hover {
     border: unset;
 }
