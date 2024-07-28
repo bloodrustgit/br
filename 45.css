@@ -1779,6 +1779,12 @@ label {
     line-height: 18px;
     color: #bbb;
 }
+
+.skin-content .spoiler {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .x-spoiler > .spoil-Untext {
     -webkit-transition: all 0.2s ease;
     -moz-transition: margin 0.2s ease;
@@ -1847,7 +1853,6 @@ blockquote {
 }
 .x-spoiler {
     overflow-x: hidden;
-    margin-bottom: 10px;
     background: white;
     border: solid #ebebeb 1px;
 }
