@@ -1866,9 +1866,9 @@ blockquote {
     display: grid;
 }
 .btn-skin {
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: white !important;
     background: #9ec483;
     border: unset;
     border-color: unset;
