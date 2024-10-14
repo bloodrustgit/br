@@ -54,19 +54,16 @@ button, input, optgroup, select, textarea {
     margin-top: 20px;
 }
 .footer-link__item {
-    padding: 10px 20px;
+    padding: 10px;
     color: black !important;
     margin: -10px 5px 0px 5px;
     background: white !important;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .footer-link__item:hover {
-    padding: 10px 20px;
     color: white !important;
-    margin: -10px 5px 0px 5px;
     background: black !important;
-    border-radius: 15px;
 }
 
 ::selection {
