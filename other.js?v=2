@@ -146,7 +146,7 @@ function hideProductsOnCondition() {
     if (activeButton && activeButton.textContent.trim() === 'Black') {
         document.querySelectorAll('.store-products__item').forEach(item => {
             const productLink = item.querySelector('.product')?.getAttribute('href');
-            if (productLink !== '/products/843734' && productLink !== '/products/1176265') {
+            if (productLink !== '/products/1176265') {
                 item.style.display = 'none';
             }
         });
